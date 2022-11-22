@@ -8,11 +8,19 @@
     <title>Принципы SOLID</title>
     <style>
         header {
-            text-align: center;
+            margin: 0;
         }
         header section .main_picture {
             height: 350px;
             width: 750px;
+        }
+        header section .animal_code {
+            height: 400px;
+            width: 400px;
+        }
+        footer {
+            border: solid;
+            background-color: slategrey;
         }
     </style>
 </head>
@@ -24,6 +32,42 @@
     <section class="main_picture">
         <img src="./picture/solid_image.png" alt="solid_image" class="main_picture">
     </section>
+
+    <section>
+        <h2>
+            Что такое SOLID?
+            Вот как расшифровывается акроним SOLID:
+        </h2>
+        <ol start="1" type="a">
+            <li>
+                Single Responsibility Principle (Принцип единственной ответственности).
+            </li>
+            <li>
+                Open-Closed Principle (Принцип открытости-закрытости).
+            </li>
+            <li>
+                Liskov Substitution Principle (Принцип подстановки Барбары Лисков).
+            </li>
+            <li>
+                Interface Segregation Principle (Принцип разделения интерфейса).
+            </li>
+            <li>
+                Dependency Inversion Principle (Принцип инверсии зависимостей).
+            </li>
+        </ol>
+    </section>
+
+    <section>
+        <img src="./picture/animal.png" alt="animal_t" class="animal_code">
+        <p>
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad adipisci aspernatur autem, cumque delectus ea facilis fuga fugit illo impedit, iusto maiores molestiae nemo nostrum perferendis perspiciatis voluptate voluptatem.</span>
+            <span>Accusamus accusantium aspernatur beatae consequuntur distinctio dolor dolore dolores illo ipsum maiores minima nisi nulla officiis omnis optio perferendis quasi quibusdam quidem rem sed tempora, temporibus ullam velit vero voluptatem.</span>
+            <span>A ad amet beatae corporis enim iusto laudantium molestias nihil nisi sint. Accusamus, adipisci aliquam at dignissimos eaque earum explicabo facere harum iste iusto quod sed suscipit voluptas voluptates voluptatibus?</span>
+        </p>
+    </section>
 </header>
+<footer>
+    <a href="gallery.html">Так-же наши статьи.</a>
+</footer>
 </body>
 </html>
